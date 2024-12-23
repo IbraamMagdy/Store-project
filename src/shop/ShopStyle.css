@@ -1,0 +1,477 @@
+
+.imagebar{
+  width: 100%;
+  background-image: url('../image/mainPhoto.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 9vh;
+}
+.imagebarData{
+  display: block;
+  text-align: center;
+}
+.logo img{
+  width: 6.3em;
+  height: 6.3em;
+  margin-bottom: -3.3vh;
+}
+.imagebarData h1{
+  font-size: 3.7em;
+  color: black;
+  font-weight: bold;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7em;
+  color: black;
+  font: bold;
+}
+.link p{
+  margin-bottom: -0.15em;
+}
+.shopf{
+  width: 100%;
+  background-color: #FAF4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 3.5%;
+  padding-inline-end: 3.5%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: black;
+}
+.shopf1{
+  width: 31%;
+  padding-inline-start: 1%;
+  padding-inline-end: 1%;
+}
+.shopf1 h2{
+  font-size: 2.5em;
+}
+.shopf1 h4{
+  color:#9F9F9F;
+  font-size: 1.5em;
+}
+.shopf2{
+  width: 31%;
+  padding-inline-start: 1%;
+  padding-inline-end: 1%;
+}
+.shopf2 h2{
+  font-size: 2.5em;
+}
+.shopf2 h4{
+  color:#9F9F9F;
+  font-size: 1.5em;
+}
+.shopf3{
+  width: 31%;
+  padding-inline-start: 1%;
+  padding-inline-end: 1%;
+}
+.shopf3 h2{
+  font-size: 2.5em;
+}
+.shopf3 h4{
+  color:#9F9F9F;
+  font-size: 1.5em;
+}
+/* ShopHeader.css */
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAF4F4;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Arial', sans-serif;
+  margin-top: 3em;
+  height: 5em;
+  padding-inline-start: 5em;
+}
+
+.lineColumn{
+  width: 0.1em;
+  height: 2.5em;
+  margin-inline-start: 1.3em;
+  background-color: gray;
+}
+.filter-dropdown label{
+  margin-inline-start: 1em;
+  font: bold;
+  color: black;
+  font-size: 1.5em;
+}
+.filter-icon{
+  width: 1.7em;
+  height: 1.7em;
+}
+.view-toggle-icons1{
+  width: 1.7em;
+  height: 1.7em;
+}
+.view-toggle-icons2{
+  width: 1.7em;
+  height: 1.7em;
+  margin-inline-start: 0.7em;
+}
+.header-left .product-count {
+  font-size: 18px;
+  color: black;
+  margin-inline-start: 1em;
+}
+
+.header-right {
+  display: flex;
+  width: 96%;
+}
+
+.filter-dropdown, .sort-dropdown, .products-per-page-dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.leftPart{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  width: 45%;
+}
+
+.rightPart{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
+  width: 55%;
+}
+
+.filter-dropdown label, .sort-dropdown label, .products-per-page-dropdown label {
+  margin-right: 8px;
+}
+
+.filter-select, .sort-select, .products-per-page-select {
+  padding: 5px;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  margin-inline-end: 2.1em;
+}
+
+.view-toggle-icons {
+  display: flex;
+  align-items: center;
+}
+
+.view-toggle {
+  padding: 8px;
+  font-size: 16px;
+  color: #555;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.view-toggle:hover, .view-toggle.active {
+  color: #000;
+}
+
+.view-toggle + .view-toggle {
+  margin-left: 5px;
+}
+
+
+
+/* product card */
+.product-list {
+    margin-inline-start: 5%;
+    margin-inline-end: 0.5%;
+}
+.product-list.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 10px; /* Spacing between items */
+}
+
+/* List View - Title and Price under the Image */
+.product-list.list {
+  display: block;
+  background-color: white;
+}
+
+.product-card {
+  border: 9px solid rgba(255, 255, 255, 0.253);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.253);
+  margin-bottom: 2.1em;
+  text-decoration: none;
+}
+
+.product-card img {
+  width: 77%;
+  height: auto;
+}
+
+/* For list view, make the title and price appear below the image */
+.product-card.list img {
+  width: 37em;
+  height: 37em; /* Set a height for the image */
+}
+
+.product-card h5 {
+  font-size: 33px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card p {
+  font-size: 21px;
+}
+
+.product-card.list {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Align text left */
+}
+
+.view-toggle.active {
+  color: #000; /* Active button style */
+}
+
+.product-info {
+  font-style: none;
+  color: black;
+  border: none;
+  text-decoration: none;
+}
+
+.product-info p {
+  text-decoration: none;
+}
+.product-info h5 {
+  text-decoration: none;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.pagination-button {
+  background-color: #FFF9E5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+  margin-inline-end: 3em;
+  border-radius: 7px;
+  padding: 1em;
+}
+
+.pagination-button.active {
+  background-color: #FBEBB5;
+  color: black;
+}
+
+.pagination-button:hover {
+  background-color: #ddd;
+}
+
+
+
+
+  /* small Laptops screens */
+  @media (max-width: 1024px) {
+    .imagebar{
+      padding-top: 5vh;
+      padding-bottom: 15vh;
+    }
+    .logo img{
+      width: 5.5em;
+      height: 5.5em;
+      margin-bottom: -7vh;
+    }
+    .imagebarData h1{
+      font-size: 2.7em;
+    }
+    .link{
+      font-size: 0.77em;
+    }
+    .shopf{
+      padding-top: 4.1em;
+      padding-bottom: 4.1em;
+    }
+    .shopf1 h2{
+      font-size: 1.7em;
+    }
+    .shopf1 h4{
+      font-size: 1.1em;
+    }
+    .shopf2 h2{
+      font-size: 1.7em;
+    }
+    .shopf2 h4{
+      font-size: 1.1em;
+    }
+    .shopf3 h2{
+      font-size: 1.7em;
+    }
+    .shopf3 h4{
+      font-size: 1.1em;
+    }
+    .header-right {
+      display: flex;
+      width: 98%;
+    }
+    .header-left .product-count {
+      font-size: 14px;
+      color: black;
+      margin-inline-start: 1em;
+    }
+  }
+  /* Medium screens (tablets) */
+  @media (max-width: 786px) {
+    .imagebar{
+      padding-top: 3vh;
+      padding-bottom: 12vh;
+    }
+    .logo img{
+      width: 5em;
+      height: 5em;
+      margin-bottom: -7vh;
+    }
+    .imagebarData h1{
+      font-size: 2.1em;
+    }
+    .link{
+      font-size: 0.7em;
+    }
+    .shopf{
+      padding-top: 3.3em;
+      padding-bottom: 3.3em;
+    }
+    .shopf1 h2{
+      font-size: 1.2em;
+    }
+    .shopf1 h4{
+      font-size: 0.77em;
+    }
+    .shopf2 h2{
+      font-size: 1.2em;
+    }
+    .shopf2 h4{
+      font-size: 0.77em;
+    }
+    .shopf3 h2{
+      font-size: 1.2em;
+    }
+    .shopf3 h4{
+      font-size: 0.77em;
+    }
+    .shop-header {
+      height: 12em;
+    }
+    .header-right {
+      display: block;
+      text-align: center;
+      width: 94%;
+    }
+    .rightPart{
+      width: 100%;
+      justify-content: start;
+      margin-bottom: 3em;
+    }
+    .leftPart{
+      width: 100%;
+      justify-content: end;
+      margin-bottom: 3em;
+    }
+    .product-list.grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .pagination-button {
+      font-size: 16px;
+      margin-inline-end: 2.1em;
+      border-radius: 7px;
+      padding: 0.9em;
+    }
+  }
+  
+  /* Small screens (mobile) */
+  @media (max-width: 480px) {
+    .imagebar{
+      padding-top: 1vh;
+      padding-bottom: 9vh;
+    }
+    .logo img{
+      width: 3em;
+      height: 3em;
+      margin-bottom: -3vh;
+    }
+    .imagebarData h1{
+      font-size: 1.7em;
+    }
+    .link{
+      font-size: 0.5em;
+    }
+    .shopf{
+      display: block;
+      padding: 12%;
+    }
+    .shopf1{
+      width: 100%;
+    }
+    .shopf2{
+      width: 100%;
+    }
+    .shopf3{
+      width: 100%;
+    }
+    .shop-header {
+      padding-inline-start: 1em;
+    }
+    .header-right {
+      width: 100%;
+    }
+    .view-toggle-icons2{
+      margin-inline-start: 0.5em;
+    }
+    .header-left .product-count {
+      font-size: 16px;
+      margin-inline-start: 0.3em;
+    }
+    .product-list.grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .pagination-button {
+      font-size: 14px;
+      margin-inline-end: 1.9em;
+      border-radius: 5px;
+      padding: 0.75em;
+    }
+    .lineColumn{
+      margin-inline-start: 0.3em;
+    }
+    .filter-dropdown label{
+      margin-inline-start: 0.5em;
+    }
+  }

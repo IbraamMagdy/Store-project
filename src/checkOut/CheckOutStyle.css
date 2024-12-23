@@ -1,0 +1,546 @@
+.imagebar{
+  width: 100%;
+  background-image: url('../image/mainPhoto.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 9vh;
+}
+.imagebarData{
+  display: block;
+  text-align: center;
+}
+.logo img{
+  width: 6.3em;
+  height: 6.3em;
+  margin-bottom: -3.3vh;
+}
+.imagebarData h1{
+  font-size: 3.7em;
+  color: black;
+  font-weight: bold;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7em;
+  color: black;
+  font: bold;
+}
+.link p{
+  margin-bottom: -0.15em;
+}
+  .checkoutContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 21vh;
+  }
+  .checkoutLeftSection{
+    display: block;
+    width: 50%;
+    margin-inline-start: 12%;
+  }
+  .checkoutLeftSection h2{
+    font-size: 3.3em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.77em;
+  }
+  .checkoutLeftSectionformlabel{
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .checkformlabel{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: -0.75em;
+  }
+  .checkformlabel1{
+    width: 40%;
+  }
+  .checkformlabel2{
+    width: 40%;
+  }
+  .checkforminput{
+    display: flex;
+    width: 100%;
+    margin-bottom: -0.75em;
+  }
+  .checkforminput1{
+    width: 40%;
+  }
+  .checkforminput1 input{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.2em;
+    width: 73%;
+    height: 5em;
+    border-radius: 7px;
+    border: gray solid thin;
+    font-size: 1em;
+  }
+  .checkforminput2{
+    width: 40%;
+  }
+  .checkforminput2 input{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.2em;
+    width: 73%;
+    height: 5em;
+    border-radius: 7px;
+    border: gray solid thin;
+    font-size: 1em;
+  }
+  .checkoutLeftSectionforminput{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.2em;
+    width: 70%;
+    height: 5em;
+    margin-bottom: 1.5em;
+    border-radius: 7px;
+    border: gray solid thin;
+    font-size: 1em;
+  }
+  .checkoutRightsections{
+    display: block;
+    width: 50%;
+    margin-inline-start: 5%;
+    margin-inline-end: 9.9%;
+    margin-top: 12vh;
+  }
+  .checkitemtitlep{
+    font-size: 1.33em !important;
+    margin-top: 5.3vh;
+  }
+  .checkitemtitle{
+    color: #9F9F9F;
+  }
+  .checktotalPricep{
+    font-size: 2.1em !important;
+    font-weight: bold;
+    margin-top: 1.5vh;
+  }
+  .checktotalPrice{
+    color: #B88E2F;
+    font-size: 2.1em !important;
+    font-weight: bold;
+  }
+  .checkout-summary{
+    display: flex;
+    width: 100%;
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+  }
+  .checkout-summary1{
+    text-align: left;
+    width: 50%;
+    font-weight: bold;
+  }
+  .checkout-summary2{
+    text-align: right;
+    width: 50%;
+  }
+  .checkLine{
+    background-color: #D9D9D9;
+    height: 0.1vh;
+    width: 100%;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+  .checkout-summary1 p{
+    font-size: 1.7em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary1 h1{
+    font-size: 2.1em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary2 p{
+    font-size: 1.7em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary2 h1{
+    font-size: 2.1em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-section{
+    font-size: 1.55em;
+  }
+  .checkout-section form label input{
+    margin-inline-end: 0.3em;
+    margin-bottom: 0.77em;
+  }
+  .checkout-section p{
+    margin-bottom: 0.7em;
+    margin-top: 0.3em;
+    color: #9F9F9F;
+  }
+  .privacyPolicy{
+    font-weight: bold;
+    color: black;
+  }
+  .checkout-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 9vh;
+  }
+  .checkout-button{
+    background-color: white;
+    color: black;
+    padding-inline-start: 3em;
+    padding-inline-end: 3em;
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2.1em;
+    border: 2px solid black;
+    box-shadow: black 1px 1.2px 1px;
+    cursor: pointer;
+  }
+  .checkout-button:hover {
+    background-color: #218838;
+    color: white;
+  }
+  .checkout-button.active {
+    background-color: #ddd;
+  }
+/* small Laptops screens */
+@media (max-width: 1024px) {
+  .imagebar{
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
+  .logo img{
+    width: 5.5em;
+    height: 5.5em;
+    margin-bottom: -7vh;
+  }
+  .imagebarData h1{
+    font-size: 2.7em;
+  }
+  .link{
+    font-size: 0.77em;
+  }
+  .checkoutLeftSection h2{
+    font-size: 3em;
+  }
+  .checkoutLeftSectionformlabel{
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    font-size: 1em;
+  }
+  .checkformlabel{
+    font-size: 1em;
+    margin-bottom: -0.75em;
+  }
+  .checkforminput{
+    margin-bottom: -0.75em;
+  }
+  .checkforminput1 input{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3.7em;
+    font-size: 0.9em;
+  }
+  .checkforminput2 input{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3.7em;
+    font-size: 0.9em;
+  }
+  .checkoutLeftSectionforminput{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 70%;
+    height: 3.7em;
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+  }
+  .checkitemtitlep{
+    font-size: 0.7em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPricep{
+    font-size: 1.7em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPrice{
+    font-size: 1.7em !important;
+  }
+  .checkout-summary{
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+  }
+  .checkout-summary1 p{
+    font-size: 1.2em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary1 h1{
+    font-size: 1.7em;
+    margin-bottom: 1.2em;
+  }
+  .checkout-summary2 p{
+    font-size: 1.2em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary2 h1{
+    font-size: 1.7em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-section{
+    font-size: 0.8em;
+  }
+  .checkout-button{
+    padding-inline-start: 2.1em;
+    padding-inline-end: 2.1em;
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    font-size: 1.7em;
+  }
+}
+/* Medium screens (tablets) */
+@media (max-width: 786px) {
+  .imagebar{
+    padding-top: 3vh;
+    padding-bottom: 12vh;
+  }
+  .logo img{
+    width: 5em;
+    height: 5em;
+    margin-bottom: -7vh;
+  }
+  .imagebarData h1{
+    font-size: 2.1em;
+  }
+  .link{
+    font-size: 0.7em;
+  }
+  .checkoutLeftSection{
+    margin-inline-start: 10%;
+    margin-inline-end: 5%;
+  }
+  .checkoutLeftSection h2{
+    font-size: 2.1em;
+  }
+  .checkoutLeftSectionformlabel{
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    font-size: 0.77em;
+  }
+  .checkformlabel{
+    font-size: 0.77em;
+    margin-bottom: -0.75em;
+  }
+  .checkforminput{
+    margin-bottom: -0.75em;
+  }
+  .checkforminput1 input{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3em;
+    font-size: 0.77em;
+  }
+  .checkforminput2 input{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3em;
+    font-size: 0.77em;
+  }
+  .checkoutLeftSectionforminput{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    width: 70%;
+    height: 3em;
+    margin-bottom: 1.5em;
+    font-size: 0.77em;
+  }
+  .checkitemtitlep{
+    font-size: 0.53em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPricep{
+    font-size: 1.2em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPrice{
+    font-size: 1.2em !important;
+  }
+  .checkout-summary{
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+  }
+  .checkout-summary1 p{
+    font-size: 1em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary1 h1{
+    font-size: 1em;
+    margin-bottom: 1.2em;
+  }
+  .checkout-summary2 p{
+    font-size: 0.77em;
+    margin-bottom: 0.9em;
+    margin-top: 5.3vh;
+
+  }
+  .checkout-summary2 h1{
+    font-size: 1em;
+    margin-bottom: 1.2em;
+  }
+  .checkout-section{
+    font-size: 0.57em;
+  }
+  .checkout-button{
+    padding-inline-start: 1.7em;
+    padding-inline-end: 1.7em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.2em;
+  }
+}
+  
+/* Small screens (mobile) */
+@media (max-width: 480px) {
+  .imagebar{
+    padding-top: 1vh;
+    padding-bottom: 9vh;
+  }
+  .logo img{
+    width: 3em;
+    height: 3em;
+    margin-bottom: -3vh;
+  }
+  .imagebarData h1{
+    font-size: 1.7em;
+  }
+  .link{
+    font-size: 0.5em;
+  }
+  .checkoutContainer{
+    display: block;
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 21vh;
+    text-align: center;
+  }
+  .checkoutLeftSection{
+    display: block;
+    width: 80%;
+    text-align: center;
+
+  }
+  .checkoutRightsections{
+    display: block;
+    width: 80%;
+    text-align: start;
+    margin-top: 3vh;
+    margin-inline-start: 10% !important;
+    margin-inline-end: 10% !important;
+
+  }
+  .checkoutLeftSection h2{
+    font-size: 3em;
+  }
+  .checkoutLeftSectionformlabel{
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    font-size: 1em;
+  }
+  .checkformlabel{
+    font-size: 1em;
+    margin-bottom: -0.75em;
+    justify-content: center;
+  }
+  .checkforminput{
+    margin-bottom: -0.75em;
+    justify-content: center;
+  }
+  .checkforminput1 input{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3.7em;
+    font-size: 0.9em;
+  }
+  .checkforminput2 input{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 73%;
+    height: 3.7em;
+    font-size: 0.9em;
+  }
+  .checkoutLeftSectionforminput{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    width: 70%;
+    height: 3.7em;
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+  }
+  .checkitemtitlep{
+    font-size: 0.7em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPricep{
+    font-size: 1.7em !important;
+    margin-top: 7vh;
+  }
+  .checktotalPrice{
+    font-size: 1.7em !important;
+  }
+  .checkout-summary{
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+  }
+  .checkout-summary1 p{
+    font-size: 1.2em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary1 h1{
+    font-size: 1.7em;
+    margin-bottom: 1.2em;
+  }
+  .checkout-summary2 p{
+    font-size: 1.2em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-summary2 h1{
+    font-size: 1.7em;
+    margin-bottom: 0.7em;
+  }
+  .checkout-section{
+    font-size: 0.8em;
+  }
+  .checkout-button{
+    padding-inline-start: 2.1em;
+    padding-inline-end: 2.1em;
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    font-size: 1.7em;
+  }
+}

@@ -1,0 +1,125 @@
+.space{
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+    
+}
+.navbarHomeColor {
+  background-color: #FBEBB5 !important;
+}
+
+.navbar.navbarHomeColor {
+  background-color: #FBEBB5 !important;
+}
+.nav-link img{
+  width: 3em;
+  height: 3em;
+  margin-inline-end: 0.61em;
+}
+.nav-link{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav {
+  margin-left: 3em;
+}
+/* Increase navbar height */
+.navbar {
+    font-size: 1.7em;
+    background-color: white !important;
+  }
+  
+  /* Increase font size for nav links */
+  .navbar-nav .nav-link {
+    font-size: 1.5rem; /* Increase font size */
+    padding: 0.5rem 1rem; /* Adjust padding for a taller navbar */
+  }
+  
+  /* Optional: Increase icon size */
+  .navbar-nav .nav-link .fa-icon {
+    font-size: 1.5em; /* Slightly larger icons */
+  }
+  .brandName{
+    font-size: 1.7em;
+  }
+  
+  /* small Laptops screens */
+  @media (max-width: 1024px) {
+    .brandName{
+      font-size: 1.2em;
+    }
+    .navbar {
+      font-size: 1.7em;
+    }
+  
+    .navbar-nav {
+      margin-left: 3em;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .space {
+      padding-inline-start: 0.7em;
+      padding-inline-end: 0.7em;
+    }
+    .navbar-nav {
+      margin-left: 0.3em;
+    }
+    .nav-link img{
+      width: 2.7em;
+      height: 2.7em;
+      margin-inline-end: 0.47em;
+      margin-bottom: 0.5em;
+    }
+  }
+  /* Medium screens (tablets) */
+  @media (max-width: 786px) {
+    .brandName{
+      font-size: 1.5em;
+    }
+    .navbar {
+      font-size: 1.5em;
+    }
+  
+    .navbar-nav {
+      margin-left: -1em;
+    }
+    
+    .navbar-nav .nav-link {
+      font-size: 1.2rem;
+      padding: 0.4rem 0.8rem;
+    }
+    .space {
+        padding-inline-start: 0.7em;
+        padding-inline-end: 0.7em;
+    }
+  }
+  
+  /* Small screens (mobile) */
+  @media (max-width: 480px) {
+    .brandName{
+      font-size: 1.2em;
+    }
+    .navbar {
+      font-size: 1.3em;
+    }
+  
+    .navbar-nav {
+      margin-left: -1em;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+      padding: 0.3rem 0.6rem;
+    }
+  
+    .space {
+      padding-inline-start: 0.5em;
+      padding-inline-end: 0.5em;
+    }
+  }
+  

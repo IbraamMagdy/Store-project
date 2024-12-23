@@ -1,0 +1,336 @@
+.imagebar{
+  width: 100%;
+  background-image: url('../image/mainPhoto.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 9vh;
+}
+.imagebarData{
+  display: block;
+  text-align: center;
+}
+.logo img{
+  width: 6.3em;
+  height: 6.3em;
+  margin-bottom: -3.3vh;
+}
+.imagebarData h1{
+  font-size: 3.7em;
+  color: black;
+  font-weight: bold;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7em;
+  color: black;
+  font: bold;
+}
+.link p{
+  margin-bottom: -0.15em;
+}
+.contactheader{
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 17vh;
+}
+.contactheader h1{
+  font-size: 2.7em;
+  color: black;
+  font: bold;
+}
+.contactheader h5{
+  font-size: 1.2em;
+  color: #9F9F9F;
+  padding-top: 1.7vh;
+  font: normal;
+}
+.p1{
+  margin-bottom: -1vh;
+}
+.contactcontainer{
+  display: flex;
+  justify-content: center;
+}
+.contactdata{
+  text-align: left;
+  padding-inline-start: 7em;
+  width: 37%;
+}
+.contactdata1{
+  display: flex;
+}
+.iconcon{
+  width: 2.1em;
+  height: 2.1em;
+  padding-inline-end: 3em;
+  margin-top: 0.37em;
+}
+.contactdata1 div{
+  display: block;
+  padding-bottom: 7vh;
+}
+.contactf{
+  text-align: left;
+  padding-inline-start: 9em;
+  margin-top: -1.2em;
+}
+.contactf form h1{
+  font: bold;
+  font-size: 1.2em;
+  padding-top: 1.9em;
+  padding-bottom: 1.5em;
+}
+.contactf form input{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.7em;
+  padding-right: 21em;
+  border-radius: 7px;
+  border: gainsboro solid thin;
+}
+.contactf form textarea{
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+  padding-left: 1.7em;
+  padding-right: 22.3em;
+  border-radius: 7px;
+  border: gainsboro solid thin;
+}
+.contactf form button{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-inline-start: 5.5em;
+  padding-inline-end: 5.5em;
+  border-radius: 15px;
+  margin-top: 2.7em;
+  margin-bottom: 3.7em;
+  border: black solid thin;
+  background-color: white;
+}
+ /* small Laptops screens */
+ @media (max-width: 1024px) {
+  .imagebar{
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
+  .logo img{
+    width: 5.5em;
+    height: 5.5em;
+    margin-bottom: -7vh;
+  }
+  .imagebarData h1{
+    font-size: 2.7em;
+  }
+  .link{
+    font-size: 0.77em;
+    padding-left: 0;
+
+  }
+  .contactheader h1{
+    font-size: 2.1em;
+  }
+  .contactheader h5{
+    font-size: 0.9em;
+  }
+  .contactdata{
+    padding-inline-start: 5em;
+  }
+  .iconcon{
+    width: 1.7em;
+    height: 1.7em;
+    padding-inline-end: 1.7em;
+  }
+  .contactdata1 div{
+    padding-bottom: 5vh;
+  }
+  .contactdata1 div h1{
+    font-size: 2.1em;
+  }
+  .contactdata1 div h4{
+    font-size: 1.33em;
+  }
+  .contactf{
+    padding-inline-start: 7em;
+  }
+  .contactf form h1{
+    font-size: 0.9em;
+    padding-top: 1.7em;
+    padding-bottom: 1.2em;
+  }
+  .contactf form input{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 1.5em;
+    padding-right: 12em;
+  }
+  .contactf form textarea{
+    padding-top: 1.2em;
+    padding-bottom: 2.1em;
+    padding-left: 1.5em;
+    padding-right: 13.5em;
+  }
+  .contactf form button{
+    padding-top: 0.37em;
+    padding-bottom: 0.37em;
+    padding-inline-start: 5em;
+    padding-inline-end: 5em;
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+  }
+ }
+ /* Medium screens (tablets) */
+ @media (max-width: 786px) {
+  .imagebar{
+    padding-top: 3vh;
+    padding-bottom: 12vh;
+  }
+  .logo img{
+    width: 5em;
+    height: 5em;
+    margin-bottom: -7vh;
+  }
+  .imagebarData h1{
+    font-size: 2.1em;
+  }
+  .link{
+    font-size: 0.7em;
+  }
+  .contactheader h1{
+    font-size: 1.7em;
+  }
+  .contactheader h5{
+    font-size: 0.7em;
+  }
+  .contactdata{
+    padding-inline-start: 3.5em;
+  }
+  .iconcon{
+    width: 1.2em;
+    height: 1.2em;
+    padding-inline-end: 1.2em;
+  }
+  .contactdata1 div{
+    padding-bottom: 3.5vh;
+  }
+  .contactdata1 div h1{
+    font-size: 1.5em;
+  }
+  .contactdata1 div h4{
+    font-size: 1em;
+  }
+  .contactf{
+    padding-inline-start: 5.5em;
+  }
+  .contactf form h1{
+    font-size: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+  .contactf form input{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 1.2em;
+    padding-right: 9em;
+  }
+  .contactf form textarea{
+    padding-top: 1em;
+    padding-bottom: 1.7em;
+    padding-left: 1.2em;
+    padding-right: 10.8em;
+    font-size: 1em;
+  }
+  .contactf form button{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-inline-start: 3.7em;
+    padding-inline-end: 3.7em;
+    margin-top: 2.1em;
+    margin-bottom: 3em;
+    font-size: 1em;
+  }
+ }
+ 
+ /* Small screens (mobile) */
+ @media (max-width: 480px) {
+  .imagebar{
+    padding-top: 1vh;
+    padding-bottom: 9vh;
+  }
+  .logo img{
+    width: 3em;
+    height: 3em;
+    margin-bottom: -3vh;
+  }
+  .imagebarData h1{
+    font-size: 1.7em;
+  }
+  .link{
+    font-size: 0.5em;
+  }
+  .contactcontainer{
+    display: block;
+  }
+  .contactheader h1{
+    font-size: 1.25em;
+  }
+  .contactheader h5{
+    font-size: 0.57em;
+  }
+  .contactdata{
+    padding-inline-start: 3.5em;
+  }
+  .contactdata{
+    width: 100%;
+  }
+  .iconcon{
+    width: 1.2em;
+    height: 1.2em;
+    padding-inline-end: 1.2em;
+  }
+  .contactdata1 div{
+    padding-bottom: 3.5vh;
+  }
+  .contactdata1 div h1{
+    font-size: 1.5em;
+  }
+  .contactdata1 div h4{
+    font-size: 1em;
+  }
+  .contactf{
+    padding-inline-start: 3em;
+    width: 100%;
+    padding-top: 21vh;
+  }
+  .contactf form h1{
+    font-size: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+  .contactf form input{
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 1.2em;
+    padding-right: 9em;
+  }
+  .contactf form textarea{
+    padding-top: 1em;
+    padding-bottom: 1.7em;
+    padding-left: 1.2em;
+    padding-right: 21em;
+    font-size: 0.7em;
+  }
+  .contactf form button{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-inline-start: 3.3em;
+    padding-inline-end: 3.3em;
+    margin-top: 2.1em;
+    margin-bottom: 3.7em;
+    font-size: 0.7em;
+  }
+ }
